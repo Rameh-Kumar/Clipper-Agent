@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/preview.gif" alt="Clip Preview" height="400">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.11+-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/Deployed_on-Modal-purple?logo=data:image/png;base64," alt="Modal">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
