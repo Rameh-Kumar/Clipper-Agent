@@ -288,6 +288,22 @@ flowchart TD
 
 ---
 
+## Testing Locally (Preview Generated Clips)
+
+Since the main agent relies on webhooks and Airtable to orchestrate videos, the clips are **never downloaded to your computer** when running in the cloud. They go straight into your Airtable!
+
+However, if you want to test the Vizard AI quality *before* setting up all the databases and deploying to Modal, you can use the included test script.
+
+1. Open `test_vizard.py` in your code editor.
+2. At the top of the file, insert your Vizard API Key and a YouTube URL.
+3. Run the script:
+   ```bash
+   python test_vizard.py
+   ```
+4. The script will wait for Vizard to process the video and then **download the .mp4 clips locally** into a new `clips/` folder on your computer so you can watch them!
+
+---
+
 ## Customization
 
 ### Change clip settings

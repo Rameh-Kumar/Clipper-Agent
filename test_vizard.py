@@ -23,8 +23,10 @@ if sys.platform == "win32":
 
 # --- Configuration ---
 
-VIZARD_API_KEY = os.environ.get("VIZARD_API_KEY", "46b0ff831c1846ae9e5405bb93e9236f")
-YOUTUBE_URL = "https://youtu.be/43LZBvgBzVw?si=qlfbI5QtsmO-6Xxl"
+VIZARD_API_KEY = os.environ.get("VIZARD_API_KEY", "")
+
+# You can hardcode a URL here to test, or pass it as an argument
+YOUTUBE_URL = "https://youtu.be/..."
 OUTPUT_DIR = Path("clips")
 
 # Vizard API endpoints
