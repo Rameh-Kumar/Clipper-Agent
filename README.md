@@ -67,9 +67,9 @@ pip install -r requirements.txt
 ```
 
 **Option B: Direct Download (ZIP)**
-1. Click the green **Code** button at the top of this repository.
-2. Click **Download ZIP** and extract the folder.
-3. Open a terminal in the extracted folder and run:
+1. **[Click here to download the ZIP file directly](https://github.com/Rameh-Kumar/Clipper-Agent/archive/refs/heads/main.zip)**
+2. Extract the downloaded folder.
+3. Open a terminal inside the extracted folder and run:
    ```bash
    pip install -r requirements.txt
    ```
