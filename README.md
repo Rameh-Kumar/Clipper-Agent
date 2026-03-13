@@ -299,8 +299,7 @@ However, if you want to test the Vizard AI quality *before* setting up all the d
 3. Run the script:
    ```bash
    python test_vizard.py
-   ```
-4. The script will wait for Vizard to process the video and then **download the .mp4 clips locally** into a new `clips/` folder on your computer so you can watch them!
+4. The script will wait for Vizard to process the video, and then **download the `.mp4` clips locally** into a new `clips/` folder on your computer so you can watch them! It will also save the full API response in `clips/_metadata.json`.
 
 ---
 
