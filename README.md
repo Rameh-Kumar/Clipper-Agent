@@ -57,13 +57,22 @@ You (Telegram)          Modal (Cloud)           External APIs
 - A [Modal](https://modal.com) account (free — $30/mo credits)
 - API keys for: [Vizard AI](https://vizard.ai), [Telegram Bot](https://t.me/BotFather), [Airtable](https://airtable.com), [Blotato](https://blotato.com) (optional)
 
-### 1. Clone & Install
+### 1. Download & Install
 
+**Option A: Git Clone**
 ```bash
-git clone https://github.com/yourusername/clipper-agent.git
-cd clipper-agent
+git clone https://github.com/Rameh-Kumar/Clipper-Agent.git
+cd Clipper-Agent
 pip install -r requirements.txt
 ```
+
+**Option B: Direct Download (ZIP)**
+1. Click the green **Code** button at the top of this repository.
+2. Click **Download ZIP** and extract the folder.
+3. Open a terminal in the extracted folder and run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### 2. Get Your API Keys
 
